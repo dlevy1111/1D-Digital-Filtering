@@ -1,2 +1,4 @@
 # 1D-Digital-Filtering
-A VHDL implementation of digital filtering in 1 dimension
+A VHDL implementation of digital filtering in 1 dimension. This code was written with my partner Bretton Scarbrough for EECS 443, Digital Logic Design. Here, we implement an averaging filter and a low pass filter. The specific goal here was to filter out a high-frequency low-amplitude signal from a desired low-frequency, high-amplitude signal. In practice, this sort of design would be realized to remove high-frequency, low-amplitude noise from digital communications.
+
+We used principles from digital logic design and digital signal processing to achieve this. This design implements the 'transposed form' of the discrete convolution circuit that is plastered in many places on the internet. We wrote all code entirely from scratch but used some reference diagrams and files as reference.
